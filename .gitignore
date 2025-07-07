@@ -133,3 +133,8 @@ uploads/
 
 # Package lock files (garder package-lock.json pour la stabilité)
 # yarn.lock (décommentez si vous utilisez yarn exclusivement)
+# Node modules - exclusion stricte
+node_modules/
+**/node_modules/
+frontend/node_modules/
+backend/node_modules/
